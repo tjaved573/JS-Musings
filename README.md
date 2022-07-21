@@ -1,1 +1,1 @@
-# JS Basics [ES 2016]
+# JS Basics [ES6]
