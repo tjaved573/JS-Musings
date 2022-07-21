@@ -1,1 +1,1 @@
-# JS-semantics
+# JS Basics [ES 2016]
