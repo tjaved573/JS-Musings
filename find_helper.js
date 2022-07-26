@@ -10,6 +10,8 @@ var admin = users.find(function(user){
    return user.admin === true;
 });
 
+// returns FIRST value that matches condition. (difference
+// between find() vs filter())
 
 var accounts = [
   { balance: -10 },

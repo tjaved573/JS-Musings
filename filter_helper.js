@@ -14,7 +14,7 @@ new_array.push(items.filter (function(item) {
 }));
 console.log(new_array);
 
-
+// returns ALL values that match condition
 
 var items2 = [
   {name: 'apple', type: 'fruit', price: 343, quantity: 4},
