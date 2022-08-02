@@ -20,3 +20,4 @@ const inventory = [
 
 const aneesBook = createBookShop(inventory);
 console.log(aneesBook.pricePerTitle("Prose"));
+console.log(aneesBook.inventoryTotal());
