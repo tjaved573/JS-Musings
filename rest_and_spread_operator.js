@@ -27,9 +27,14 @@ function addNumbers2(...num) {
 const pets = ["dog", "cat", "rabbit"];
 const food = ["bone", "milk", "carrot"];
 const pets_food = [...pets, ...food]; // spread operator
-console.log(pets_food);
 
 //! spread operator works like array concatenation, but also
 //! allows you to pass singular values.
 const f = ["blue", ...pets, ...food];
 console.log(f);
+
+const f2 = function (...pets) {
+  console.log(pets);
+};
+
+f2(2, 45, 22, 32);
