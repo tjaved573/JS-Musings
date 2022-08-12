@@ -112,3 +112,22 @@ console.log(double(numbers, []));
 function doubleMod([number, ...rest]) {
   return !number ? [] : [number * 2, ...double(rest)];
 }
+
+arr = [1, 23, 4, 5, 4353];
+function p([first, second, ...arr]) {
+  console.log(
+    `
+    first =  ${first}
+    second = ${second}
+    remaining = ${arr}`
+  );
+  console.log(typeof arr);
+}
+p(arr);
+
+function double([first_value, ...remaining]) {
+  if (!first_value) return [];
+  else {
+    return [first_value * 2, ...double(remaining)];
+  }
+}
